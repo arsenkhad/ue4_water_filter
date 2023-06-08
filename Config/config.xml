@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<variables>
+    <SphereDiameter>20.f</SphereDiameter>
+    <SphereDiameterTolerance>10.f</SphereDiameterTolerance>
+    <InnerCylinderD>400.f</InnerCylinderD>
+    <OuterCylinderD>900.f</OuterCylinderD>
+    <CylinderH>800.f</CylinderH>
+    <CylindersDelta>200.f</CylindersDelta>
+</variables>
