@@ -31,6 +31,8 @@ public:
     float CylinderH = 800.f;
     UPROPERTY(EditAnywhere)
     float CylindersDelta = 200.f;
+	UPROPERTY(EditAnywhere)
+	FKey ActivationKey = EKeys::SpaceBar;
 	
 protected:
 	virtual void BeginPlay() override;

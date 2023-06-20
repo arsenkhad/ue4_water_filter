@@ -51,7 +51,7 @@ void AInit::GenerateCloud(TArray<ABall*> &Cloud, const float CloudHeight, const 
 void AInit::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	if (!FilterReady && GetWorld()->GetFirstPlayerController()->WasInputKeyJustPressed(EKeys::SpaceBar))
+	if (!FilterReady && GetWorld()->GetFirstPlayerController()->WasInputKeyJustPressed(ActivationKey))
 	{
 		for(const auto Ball : FilterBalls)
 		{
