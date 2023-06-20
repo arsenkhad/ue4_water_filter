@@ -1,5 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
@@ -22,6 +20,4 @@ protected:
 	UMaterialInterface* Material = nullptr;
 	UPROPERTY(VisibleAnywhere)
 	UStaticMeshComponent* DefaultBallComponent = nullptr;
-	UPROPERTY(VisibleAnywhere)
-	TArray<UStaticMeshComponent*> BallComponents;
 };

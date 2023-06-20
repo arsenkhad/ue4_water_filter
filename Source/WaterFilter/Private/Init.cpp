@@ -1,4 +1,5 @@
 #include "Init.h"
+#include "XmlFile.h"
 
 AInit::AInit()
 {
